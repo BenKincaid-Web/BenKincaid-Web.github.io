@@ -1,0 +1,260 @@
+@font-face {
+  font-family: "Lato Base";
+  src: url('/fonts/../fonts/Lato-Regular.ttf?1438911720') format('truetype');
+}
+@font-face {
+  font-family: "Lato Nav";
+  src: url('/fonts/../fonts/Lato-Bold.ttf?1438911718') format('truetype');
+}
+@font-face {
+  font-family: "OpenSans Header";
+  src: url('/fonts/../fonts/OpenSans-Regular.ttf?1465698138') format('truetype');
+}
+/* line 10, ../sass/custom.scss */
+*, *:after, *:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 0;
+}
+
+/* line 15, ../sass/custom.scss */
+body {
+  color: 1C1C1C;
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #454545 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #454545 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffffff 0%, #454545 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#454545',GradientType=0 );
+  /* IE6-9 */
+  height: 700vh;
+  overflow-x: hidden;
+}
+
+/* line 26, ../sass/custom.scss */
+a {
+  text-decoration: none;
+  cursor: pointer;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  color: #1C1C1C;
+}
+/* line 34, ../sass/custom.scss */
+a:hover {
+  color: #666666;
+  text-decoration: none;
+}
+
+/* line 40, ../sass/custom.scss */
+.navbar-custom {
+  padding-top: 20px;
+  font-size: 18px;
+  top: 0px;
+  height: 100px;
+}
+
+/* line 48, ../sass/custom.scss */
+.navbar-brand {
+  font-size: 30px;
+  color: #454545;
+  transition: all .2s ease-in-out;
+}
+/* line 52, ../sass/custom.scss */
+.navbar-brand:hover {
+  transform: scale(1.03);
+  color: #454545;
+}
+
+/* line 59, ../sass/custom.scss */
+#main-nav {
+  margin-top: 8px;
+  position: relative;
+}
+/* line 63, ../sass/custom.scss */
+#main-nav ul li {
+  margin-left: 15px;
+}
+/* line 65, ../sass/custom.scss */
+#main-nav ul li a {
+  font-family: "Lato Nav";
+  padding: 10px;
+  color: #454545;
+  border-radius: 15px;
+  transition: all .2s ease-in-out;
+}
+/* line 71, ../sass/custom.scss */
+#main-nav ul li a:hover {
+  transform: scale(1.05);
+}
+
+/* line 81, ../sass/custom.scss */
+.intro {
+  width: 100%;
+  height: auto;
+}
+
+/* line 89, ../sass/custom.scss */
+.row {
+  position: relative;
+  height: 100vh;
+  padding-top: 170px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* line 97, ../sass/custom.scss */
+#intro-col {
+  height: 80vh;
+}
+/* line 99, ../sass/custom.scss */
+#intro-col h1 {
+  font-size: 46px;
+  font-family: "Lato Nav";
+}
+/* line 103, ../sass/custom.scss */
+#intro-col h2 {
+  margin-top: 40px;
+  font-family: "Lato Base";
+}
+
+/* line 108, ../sass/custom.scss */
+.btn-circle {
+  z-index: 2;
+  position: relative;
+  border: 4px solid #777777;
+  border-radius: 100px;
+  width: 90px;
+  color: #454545;
+  padding-top: 10px;
+  display: block;
+  margin: 0 auto;
+  bottom: -40%;
+  -webkit-transition: border 300ms ease-out;
+  -moz-transition: border 300ms ease-out;
+  -o-transition: border 300ms ease-out;
+  transition: border 300ms ease-out;
+}
+/* line 123, ../sass/custom.scss */
+.btn-circle:hover {
+  border: 4px solid #000;
+}
+
+/* line 130, ../sass/custom.scss */
+#about-col h2 {
+  font-family: "OpenSans Header";
+  font-weight: 500;
+  font-size: 46px;
+}
+/* line 135, ../sass/custom.scss */
+#about-col h4 {
+  margin-top: 30px;
+  line-height: 35px;
+}
+
+/* line 142, ../sass/custom.scss */
+#portfolio-col .col-lg-12 {
+  margin-bottom: 100px;
+}
+
+/* line 146, ../sass/custom.scss */
+#portfolio-col .col-md-12 {
+  margin-bottom: 30px;
+}
+
+/* line 149, ../sass/custom.scss */
+#port-heading {
+  font-family: "OpenSans Header";
+  font-size: 52px;
+  text-align: center;
+}
+
+/* line 155, ../sass/custom.scss */
+.port-card {
+  background-color: darkgray;
+  cursor: pointer;
+  position: relative;
+  margin: 0px 40px;
+  padding: 40px;
+  height: 500px;
+}
+/* line 162, ../sass/custom.scss */
+.port-card h2 {
+  text-align: center;
+}
+/* line 165, ../sass/custom.scss */
+.port-card #codepen-logo {
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+}
+
+/* line 173, ../sass/custom.scss */
+.port-logo {
+  width: 80%;
+  position: relative;
+  margin: 80px auto;
+  text-align: center;
+}
+
+/* line 181, ../sass/custom.scss */
+#hidden-nav {
+  visibility: hidden;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 185, ../sass/custom.scss */
+  .row {
+    height: 110vh;
+  }
+
+  /* line 190, ../sass/custom.scss */
+  #about-col h2 {
+    font-size: 34px;
+  }
+  /* line 193, ../sass/custom.scss */
+  #about-col h4 {
+    font-size: 14px;
+  }
+
+  /* line 198, ../sass/custom.scss */
+  .port-card {
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* line 204, ../sass/custom.scss */
+  #hidden-nav {
+    visibility: visible;
+    position: fixed;
+    right: 100px;
+    top: 55px;
+  }
+  /* line 209, ../sass/custom.scss */
+  #hidden-nav ul {
+    display: inline-block;
+    list-style-type: none;
+  }
+  /* line 212, ../sass/custom.scss */
+  #hidden-nav ul li {
+    margin-right: 10px;
+    float: left;
+    font-size: 20px;
+  }
+}
+@media (min-width: 320px) and (max-width: 370px) {
+  /* line 223, ../sass/custom.scss */
+  #hidden-nav {
+    top: 65px;
+  }
+  /* line 226, ../sass/custom.scss */
+  #hidden-nav ul li {
+    font-size: 14px;
+  }
+}

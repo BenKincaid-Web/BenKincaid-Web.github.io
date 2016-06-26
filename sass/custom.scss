@@ -1,0 +1,232 @@
+$primary-gray: #454545;
+$secondary-gray: #eee;
+
+@import "compass/css3";
+
+@include font-face("Lato Base", font-files("../fonts/Lato-Regular.ttf"));
+@include font-face("Lato Nav", font-files("../fonts/Lato-Bold.ttf"));
+@include font-face("OpenSans Header", font-files("../fonts/OpenSans-Regular.ttf"));
+
+*, *:after, *:before {
+    @include box-sizing(border-box);
+    z-index: 0;
+}
+
+body {
+    color: 1C1C1C;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #454545 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffffff 0%,#454545 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffffff 0%,#454545 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#454545',GradientType=0 ); /* IE6-9 */
+    height: 700vh;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none; 
+    cursor: pointer;
+     -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    color: #1C1C1C;
+    &:hover {
+        color: #666666;
+        text-decoration: none;
+    }
+}
+
+.navbar-custom {
+    padding-top: 20px;
+    font-size: 18px;
+    top: 0px;
+    height: 100px;
+    
+}
+
+.navbar-brand {
+    font-size: 30px;
+    color: $primary-gray;
+    transition: all .2s ease-in-out;
+    &:hover {
+        transform: scale(1.03);
+        color: $primary-gray;
+    }
+    
+}
+
+#main-nav {
+    margin-top: 8px;
+    position: relative;
+    ul{
+    li {
+        margin-left: 15px;
+        a {
+            font-family: "Lato Nav";
+            padding: 10px;
+            color: $primary-gray;
+            border-radius: 15px;
+            transition: all .2s ease-in-out;
+            &:hover {
+                transform: scale(1.05);
+            }
+            
+        }
+        }
+    }
+}
+
+
+.intro {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.row {
+    position: relative;
+    height: 100vh;
+    padding-top: 170px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#intro-col {
+    height: 80vh;
+    h1 {
+        font-size: 46px;
+        font-family: "Lato Nav";
+    }
+    h2 {
+        margin-top: 40px;
+        font-family:"Lato Base";
+    }
+}
+.btn-circle {
+    z-index: 2;
+    position: relative;
+    border: 4px solid #777777;
+    border-radius: 100px;
+    width: 90px;
+    color: $primary-gray;
+    padding-top: 10px;
+    display: block;
+    margin: 0 auto;
+    bottom: -40%;
+    -webkit-transition : border 300ms ease-out;
+    -moz-transition : border 300ms ease-out;
+    -o-transition : border 300ms ease-out;
+    transition : border 300ms ease-out;
+    &:hover {
+        border: 4px solid #000;
+    }
+}
+
+
+#about-col {
+    h2 {
+        font-family: "OpenSans Header";
+        font-weight: 500;
+        font-size: 46px;
+    }
+    h4 {
+        margin-top: 30px;
+        line-height: 35px;
+    }
+    
+}
+
+#portfolio-col .col-lg-12 {
+    margin-bottom: 100px;
+}
+
+#portfolio-col .col-md-12 {
+    margin-bottom: 30px;
+}
+#port-heading {
+    font-family: "OpenSans Header";
+    font-size: 52px;
+    text-align: center;
+}
+
+.port-card {
+    background-color: darkgray;
+    cursor:pointer;
+    position: relative;
+    margin: 0px 40px;
+    padding: 40px;
+    height: 500px;
+    h2 {
+        text-align: center;
+    }
+    #codepen-logo {
+        margin: 0 auto;
+        display: inline-block;
+        position: relative;
+    }
+}
+
+
+.port-logo {
+    width: 80%;   
+    position: relative;
+    margin: 80px auto;
+    text-align: center;
+    
+}
+
+#hidden-nav {
+    visibility: hidden;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .row {
+        height: 110vh;
+    }
+    
+    #about-col {
+        h2 {
+            font-size: 34px;
+        }
+        h4 {
+            font-size: 14px;
+        }
+    }
+    
+    .port-card {
+        height: 500px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    #hidden-nav {
+        visibility: visible;
+        position: fixed;
+        right: 100px;
+        top: 55px;
+        ul {
+            display: inline-block;
+            list-style-type: none;
+            li{
+                margin-right: 10px;
+                float: left;
+                font-size: 20px;
+            }
+        }
+    }
+
+
+}
+@media (min-width: 320px) and (max-width: 370px) {
+    #hidden-nav {
+        top: 65px;
+        ul {
+            li{
+               font-size: 14px; 
+            }
+        }
+    }
+    
+}
