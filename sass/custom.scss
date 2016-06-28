@@ -98,7 +98,7 @@ a {
     height: 80vh;
     h1 {
         font-size: 46px;
-        font-family: "Lato Nav";
+        font-family: sans-serif;
     }
     h2 {
         margin-top: 40px;
@@ -147,10 +147,22 @@ a {
     margin-bottom: 30px;
 }
 #port-heading {
-    font-family: "OpenSans Header";
-    font-size: 52px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 42px;
     text-align: center;
 }
+
+.heading-line {
+    padding: 10px;
+    display: inline-block;
+    hr {
+        width: 20%; 
+    }
+   
+    
+}
+
 
 .port-card {
     background-color: darkgray;

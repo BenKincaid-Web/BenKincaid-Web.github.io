@@ -51,3 +51,6 @@ $("#introButtontwo").click(function(){
     $("html, body").animate({scrollTop: $(".intro").offset().top}, 1000);
 });
 
+
+
+$("hr").hide();

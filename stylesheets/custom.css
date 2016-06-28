@@ -115,7 +115,7 @@ a:hover {
 /* line 99, ../sass/custom.scss */
 #intro-col h1 {
   font-size: 46px;
-  font-family: "Lato Nav";
+  font-family: sans-serif;
 }
 /* line 103, ../sass/custom.scss */
 #intro-col h2 {
@@ -169,12 +169,23 @@ a:hover {
 
 /* line 149, ../sass/custom.scss */
 #port-heading {
-  font-family: "OpenSans Header";
-  font-size: 52px;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 42px;
   text-align: center;
 }
 
-/* line 155, ../sass/custom.scss */
+/* line 156, ../sass/custom.scss */
+.heading-line {
+  padding: 10px;
+  display: inline-block;
+}
+/* line 159, ../sass/custom.scss */
+.heading-line hr {
+  width: 20%;
+}
+
+/* line 167, ../sass/custom.scss */
 .port-card {
   background-color: darkgray;
   cursor: pointer;
@@ -183,18 +194,18 @@ a:hover {
   padding: 40px;
   height: 500px;
 }
-/* line 162, ../sass/custom.scss */
+/* line 174, ../sass/custom.scss */
 .port-card h2 {
   text-align: center;
 }
-/* line 165, ../sass/custom.scss */
+/* line 177, ../sass/custom.scss */
 .port-card #codepen-logo {
   margin: 0 auto;
   display: inline-block;
   position: relative;
 }
 
-/* line 173, ../sass/custom.scss */
+/* line 185, ../sass/custom.scss */
 .port-logo {
   width: 80%;
   position: relative;
@@ -202,46 +213,46 @@ a:hover {
   text-align: center;
 }
 
-/* line 181, ../sass/custom.scss */
+/* line 193, ../sass/custom.scss */
 #hidden-nav {
   visibility: hidden;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  /* line 185, ../sass/custom.scss */
+  /* line 197, ../sass/custom.scss */
   .row {
     height: 110vh;
   }
 
-  /* line 190, ../sass/custom.scss */
+  /* line 202, ../sass/custom.scss */
   #about-col h2 {
     font-size: 34px;
   }
-  /* line 193, ../sass/custom.scss */
+  /* line 205, ../sass/custom.scss */
   #about-col h4 {
     font-size: 14px;
   }
 
-  /* line 198, ../sass/custom.scss */
+  /* line 210, ../sass/custom.scss */
   .port-card {
     height: 500px;
     width: 100%;
     margin: 0 auto;
   }
 
-  /* line 204, ../sass/custom.scss */
+  /* line 216, ../sass/custom.scss */
   #hidden-nav {
     visibility: visible;
     position: fixed;
     right: 100px;
     top: 55px;
   }
-  /* line 209, ../sass/custom.scss */
+  /* line 221, ../sass/custom.scss */
   #hidden-nav ul {
     display: inline-block;
     list-style-type: none;
   }
-  /* line 212, ../sass/custom.scss */
+  /* line 224, ../sass/custom.scss */
   #hidden-nav ul li {
     margin-right: 10px;
     float: left;
@@ -249,11 +260,11 @@ a:hover {
   }
 }
 @media (min-width: 320px) and (max-width: 370px) {
-  /* line 223, ../sass/custom.scss */
+  /* line 235, ../sass/custom.scss */
   #hidden-nav {
     top: 65px;
   }
-  /* line 226, ../sass/custom.scss */
+  /* line 238, ../sass/custom.scss */
   #hidden-nav ul li {
     font-size: 14px;
   }
