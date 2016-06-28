@@ -197,7 +197,9 @@ a {
     .row {
         height: 110vh;
     }
-    
+    #circleAboutButton{
+        visibility: hidden;
+    }
     #about-col {
         h2 {
             font-size: 34px;
@@ -229,9 +231,11 @@ a {
         }
     }
 
-
+    #portfolio .row {
+        padding-top: 10px;
+    }
 }
-@media (min-width: 320px) and (max-width: 370px) {
+@media (min-width: 310px) and (max-width: 380px) {
     #hidden-nav {
         top: 65px;
         ul {
@@ -240,5 +244,20 @@ a {
             }
         }
     }
+    .btn-circle{
+        visibility: hidden;
+        i {
+            visibility: hidden;
+        }
     
+}
+    #port-heading {
+        margin-top: 50px;
+    }
+    #about .row {
+        padding-top: 10px;
+    }
+    #portfolio-col .col-lg-12 {
+        margin-bottom: 10px;
+    }
 }

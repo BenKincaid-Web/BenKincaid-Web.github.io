@@ -53,4 +53,3 @@ $("#introButtontwo").click(function(){
 
 
 
-$("hr").hide();

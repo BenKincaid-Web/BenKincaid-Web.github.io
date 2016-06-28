@@ -9017,48 +9017,82 @@ a:hover {
     height: 110vh;
   }
 
-  /* line 202, ../sass/custom.scss */
+  /* line 200, ../sass/custom.scss */
+  #circleAboutButton {
+    visibility: hidden;
+  }
+
+  /* line 204, ../sass/custom.scss */
   #about-col h2 {
     font-size: 34px;
   }
-  /* line 205, ../sass/custom.scss */
+  /* line 207, ../sass/custom.scss */
   #about-col h4 {
     font-size: 14px;
   }
 
-  /* line 210, ../sass/custom.scss */
+  /* line 212, ../sass/custom.scss */
   .port-card {
     height: 500px;
     width: 100%;
     margin: 0 auto;
   }
 
-  /* line 216, ../sass/custom.scss */
+  /* line 218, ../sass/custom.scss */
   #hidden-nav {
     visibility: visible;
     position: fixed;
     right: 100px;
     top: 55px;
   }
-  /* line 221, ../sass/custom.scss */
+  /* line 223, ../sass/custom.scss */
   #hidden-nav ul {
     display: inline-block;
     list-style-type: none;
   }
-  /* line 224, ../sass/custom.scss */
+  /* line 226, ../sass/custom.scss */
   #hidden-nav ul li {
     margin-right: 10px;
     float: left;
     font-size: 20px;
   }
+
+  /* line 234, ../sass/custom.scss */
+  #portfolio .row {
+    padding-top: 10px;
+  }
 }
-@media (min-width: 320px) and (max-width: 370px) {
-  /* line 235, ../sass/custom.scss */
+@media (min-width: 310px) and (max-width: 380px) {
+  /* line 239, ../sass/custom.scss */
   #hidden-nav {
     top: 65px;
   }
-  /* line 238, ../sass/custom.scss */
+  /* line 242, ../sass/custom.scss */
   #hidden-nav ul li {
     font-size: 14px;
+  }
+
+  /* line 247, ../sass/custom.scss */
+  .btn-circle {
+    visibility: hidden;
+  }
+  /* line 249, ../sass/custom.scss */
+  .btn-circle i {
+    visibility: hidden;
+  }
+
+  /* line 254, ../sass/custom.scss */
+  #port-heading {
+    margin-top: 50px;
+  }
+
+  /* line 257, ../sass/custom.scss */
+  #about .row {
+    padding-top: 10px;
+  }
+
+  /* line 260, ../sass/custom.scss */
+  #portfolio-col .col-lg-12 {
+    margin-bottom: 10px;
   }
 }
