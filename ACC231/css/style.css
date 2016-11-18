@@ -152,6 +152,11 @@ p {
       font-size: 1em; }
 
   [class*='button-'] {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; } 
 
+     .header-bar {
+        position: absolute;
+    } 
+    
+}
 /*# sourceMappingURL=style.css.map */

@@ -3,6 +3,7 @@
 html {
     font-size: 20px;
     overflow-x: hidden;
+    height: 115%;
 }
 
 body {
@@ -98,7 +99,7 @@ p {
 
 .container {
     width: 90%;
-    height: 115vh;
+    height: 115%;
     display: block;
     text-align: center;
     margin: 0 auto;
@@ -190,5 +191,6 @@ p {
     [class*='button-'] {
         margin-bottom: 20px;
     }
-    
+        
+   
 }
