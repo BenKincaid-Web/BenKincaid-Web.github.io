@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var minA, minB, minC, or, clearPass;
         
     minA = 492; minB = 420; minC = 365;
@@ -25,19 +24,6 @@ function clearit() {
     }
     
    
-=======
-var minA, minB, minC;
-        
-        minA = 492; minB = 420; minC = 365;
-
-function clearit() {
-    document.getElementById('cScore').value = "";
-    document.getElementById('absenceNumber').value = "";
-    
-    document.getElementById('aResult').innerHTML = " ";
-    document.getElementById('bResult').innerHTML = " ";
-    document.getElementById('cResult').innerHTML = " ";
->>>>>>> f0365dff997cfc10231fb087990ba69f08ed120f
 }
 
 function compute() {
@@ -47,16 +33,12 @@ function compute() {
     
     total = (ansOne + ansTwo) + ansThree;
     
-<<<<<<< HEAD
     clearPass = "true";
     
-=======
->>>>>>> f0365dff997cfc10231fb087990ba69f08ed120f
     if (!ansOne || !ansTwo) {
         clearit();
         window.alert("One or more of the fields below are left blank. Please complete the form to continue.");
     } else {
-<<<<<<< HEAD
         or.css("visibility", "visible");
         document.getElementById('aResult').innerHTML = Math.round(minA - total)/2 + "%";
         document.getElementById('bResult').innerHTML = Math.round(minB - total)/2 + "%";
@@ -64,11 +46,6 @@ function compute() {
         document.getElementById('aResultP').innerHTML = Math.round(minA - total) + "Points";
         document.getElementById('bResultP').innerHTML = Math.round(minB - total) + " Points";
         document.getElementById('cResultP').innerHTML = Math.round(minC - total) + " Points";
-=======
-        document.getElementById('aResult').innerHTML = Math.round(minA - total)/2 + "%";
-        document.getElementById('bResult').innerHTML = Math.round(minB - total)/2 + "%";
-        document.getElementById('cResult').innerHTML = Math.round(minC - total)/2 + "%";
->>>>>>> f0365dff997cfc10231fb087990ba69f08ed120f
     }
     
 }
