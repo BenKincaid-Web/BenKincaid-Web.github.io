@@ -43,7 +43,7 @@ function compute() {
         document.getElementById('aResult').innerHTML = Math.round(minA - total)/2 + "%";
         document.getElementById('bResult').innerHTML = Math.round(minB - total)/2 + "%";
         document.getElementById('cResult').innerHTML = Math.round(minC - total)/2 + "%";
-        document.getElementById('aResultP').innerHTML = Math.round(minA - total) + "Points";
+        document.getElementById('aResultP').innerHTML = Math.round(minA - total) + " Points";
         document.getElementById('bResultP').innerHTML = Math.round(minB - total) + " Points";
         document.getElementById('cResultP').innerHTML = Math.round(minC - total) + " Points";
     }
