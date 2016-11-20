@@ -1,13 +1,21 @@
 html {
   font-size: 20px;
+<<<<<<< HEAD
   overflow-x: hidden;
   height: 115%; }
+=======
+  overflow-x: hidden; }
+>>>>>>> f0365dff997cfc10231fb087990ba69f08ed120f
 
 body {
   width: 100%;
   margin: 50px 0 0;
   padding: 0;
+<<<<<<< HEAD
   background-color: #f8877f;
+=======
+  background-color: #F44336;
+>>>>>>> f0365dff997cfc10231fb087990ba69f08ed120f
   color: whitesmoke;
   font-family: 'Alegreya Sans', sans-serif; }
 
@@ -84,7 +92,11 @@ p {
 
 .container {
   width: 90%;
+<<<<<<< HEAD
   height: 115%;
+=======
+  height: 115vh;
+>>>>>>> f0365dff997cfc10231fb087990ba69f08ed120f
   display: block;
   text-align: center;
   margin: 0 auto; }
@@ -98,7 +110,10 @@ p {
     width: 40%;
     margin: 0px; }
   .form input {
+<<<<<<< HEAD
     color: lightblue;
+=======
+>>>>>>> f0365dff997cfc10231fb087990ba69f08ed120f
     width: 30%;
     left: 10%;
     position: relative;
@@ -115,23 +130,38 @@ p {
     padding-top: 10px; }
 
 .results {
+<<<<<<< HEAD
   margin: 20px auto 60px;
   width: 80%;
   display: inline-block; }
   .results div {
     border-radius: 5px;
+=======
+  margin: 20px auto 0px;
+  width: 80%;
+  display: inline-block; }
+  .results div {
+>>>>>>> f0365dff997cfc10231fb087990ba69f08ed120f
     margin: 0;
     padding: 0;
     position: relative;
     width: 32%;
     display: inline-block;
+<<<<<<< HEAD
     height: 100%;
     padding-bottom: 30px; }
+=======
+    height: 200px; }
+>>>>>>> f0365dff997cfc10231fb087990ba69f08ed120f
     .results div p {
       position: relative;
       display: inline-block;
       text-align: center;
+<<<<<<< HEAD
       font-size: 1.65em;
+=======
+      font-size: 2em;
+>>>>>>> f0365dff997cfc10231fb087990ba69f08ed120f
       border-bottom: 1px solid white; }
     .results div:nth-of-type(1) {
       background-color: #66BB6A; }
@@ -140,11 +170,14 @@ p {
     .results div:nth-of-type(3) {
       background-color: #E53935; }
 
+<<<<<<< HEAD
 .or {
   margin: 0;
   padding: 0;
   visibility: hidden; }
 
+=======
+>>>>>>> f0365dff997cfc10231fb087990ba69f08ed120f
 @media (max-width: 600px) {
   html {
     font-size: 0.95em; }
@@ -156,6 +189,7 @@ p {
     text-align: center; }
 
   .results div {
+<<<<<<< HEAD
     height: auto; }
     .results div p {
       font-size: 1.2em; }
@@ -166,4 +200,18 @@ p {
   .header-bar {
     position: absolute; } }
 
+=======
+    height: 80px; }
+    .results div p {
+      font-size: 1em; }
+
+  [class*='button-'] {
+    margin-bottom: 20px; } 
+
+     .header-bar {
+        position: absolute;
+    } 
+    
+}
+>>>>>>> f0365dff997cfc10231fb087990ba69f08ed120f
 /*# sourceMappingURL=style.css.map */

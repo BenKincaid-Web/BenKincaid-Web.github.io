@@ -9,7 +9,11 @@ html {
 body {
     width: 100%;
     margin: 50px 0 0; padding: 0;
+<<<<<<< HEAD
     background-color: lighten(#F44336, 15%);
+=======
+    background-color: #F44336;
+>>>>>>> f0365dff997cfc10231fb087990ba69f08ed120f
     color: whitesmoke;
     font-family: 'Alegreya Sans', sans-serif;
 }
@@ -115,7 +119,10 @@ p {
         margin: 0px;
     }
     input {
+<<<<<<< HEAD
         color: lightblue;
+=======
+>>>>>>> f0365dff997cfc10231fb087990ba69f08ed120f
         width: 30%;
         left: 10%;
         position: relative;
@@ -136,22 +143,37 @@ p {
 }
 
 .results {
+<<<<<<< HEAD
     margin: 20px auto 60px;
     width: 80%; 
     display: inline-block;
     div {
         border-radius: 5px;
+=======
+    margin: 20px auto 0px;
+    width: 80%; 
+    display: inline-block;
+    div {
+>>>>>>> f0365dff997cfc10231fb087990ba69f08ed120f
         margin: 0; padding: 0;
         position: relative;
         width: 32%;
         display: inline-block;
+<<<<<<< HEAD
         height: 100%;
         padding-bottom: 30px;
+=======
+        height: 200px;
+>>>>>>> f0365dff997cfc10231fb087990ba69f08ed120f
         p {
             position: relative;
             display: inline-block;
             text-align: center;
+<<<<<<< HEAD
             font-size: 1.65em;
+=======
+            font-size: 2em;
+>>>>>>> f0365dff997cfc10231fb087990ba69f08ed120f
             border-bottom: 1px solid white;
         }
         &:nth-of-type(1) {
@@ -167,11 +189,14 @@ p {
     
 }
 
+<<<<<<< HEAD
 .or {
     margin: 0; padding: 0;
     visibility: hidden;
 }
 
+=======
+>>>>>>> f0365dff997cfc10231fb087990ba69f08ed120f
 
 
 
@@ -190,9 +215,15 @@ p {
     }
     
     .results div {
+<<<<<<< HEAD
         height: auto;
         p {
             font-size: 1.2em;
+=======
+        height: 80px;
+        p {
+            font-size: 1em;
+>>>>>>> f0365dff997cfc10231fb087990ba69f08ed120f
         }
     }
     
@@ -200,7 +231,11 @@ p {
         margin-bottom: 20px;
     }
         
+<<<<<<< HEAD
     .header-bar {
         position: absolute;
     }
+=======
+   
+>>>>>>> f0365dff997cfc10231fb087990ba69f08ed120f
 }
